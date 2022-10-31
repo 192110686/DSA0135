@@ -1,0 +1,14 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float s;
+	cout<<"enter the number";
+	cin>>s;
+	if(s>0)
+	cout<<sqrt(s);
+	else
+	cout<<"it is negative  number";
+	return 0;
+}
